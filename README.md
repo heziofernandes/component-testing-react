@@ -16,7 +16,7 @@ In order to prove the test compatibility on different operating systems and also
 
 ## CI ✅
 This project is integrated with a continuous integration tool GitHub Actions.
-[Actions](https://github.com/tillster/poc-react-test-component/actions)
+[Actions](https://github.com/heziofernandes/component-testing-react/actions)
 
 
 ## Getting started 🥁
