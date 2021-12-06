@@ -43,6 +43,23 @@ describe('Dropdown Component', () => {
     expect(optionUbuntu).toBeInTheDocument();
     });
 
+    test('Shoud not show up itens when itens empty', () => {
+      render(
+        <Dropdown
+            title={title} 
+            options={[]}
+            onSelect ={()=>{}}
+        />,
+    );
+
+      const dropdownButton =  screen.getByRole('button',{name:title});
+      userEvent.click(dropdownButton);
+
+      const optionMac = screen.queryByText(options[0]);
+            
+      expect(optionMac).not.toBeInTheDocument();
+    });
+
     test('Shoud select an option and close the Dropdown', () => {
         const onSelect= jest.fn();
         render(

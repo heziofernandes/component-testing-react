@@ -1,5 +1,4 @@
 # Demo-react-test-component
-
 React component test demonstration project.
 The repository uses React, Testing-library, and React-scripts integration.
 
@@ -7,11 +6,22 @@ The repository uses React, Testing-library, and React-scripts integration.
 * [React](https://create-react-app.dev/docs/adding-typescript/#getting-started-with-typescript-and-react)
 * [React Testing Library](https://cucumber.io/docs/installation/javascript/)
 
-### React Testing Library:
-
+### React Testing Library: 🧪
 React Testing Library is a light-weight testing library.  It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages good testing practices.
 
-## Integrations
+### Testing library supports: ℹ️
+Apart from React, Jest supports unit testing of Angular, VueJS, NodeJS, and others.
+Libraries and Frameworks For React Developers supports
+* Jest.
+* Mocha.
+* Chai.
+* Jasmine.
+* Enzyme.
+* Cypress IO.
+* React-testing-library.
+* Puppeteer.
+* 
+## Integrations: ⚙️
 In order to prove the test compatibility on different operating systems and also different versions of Node.JS, integration with Github Actions was performed.
 
 ## CI ✅
@@ -37,12 +47,12 @@ git clone git@github.com:heziofernandes/component-testing-react.git
 cd poc-react-test-component
 ```
 
-#### Install the yarn packages
+#### Install packages
 ```
 yarn
 ```
 
-#### Run tests:
+#### Run tests: ♻️
 ```
 yarn test or npm test
 ```
