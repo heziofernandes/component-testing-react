@@ -4,7 +4,7 @@ The repository uses React, Testing-library, and React-scripts integration.
 
 ### Testing Framework used 🤖
 * [React](https://create-react-app.dev/docs/adding-typescript/#getting-started-with-typescript-and-react)
-* [React Testing Library](https://cucumber.io/docs/installation/javascript/)
+* [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ### React Testing Library: 🧪
 React Testing Library is a light-weight testing library.  It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages good testing practices.
@@ -39,12 +39,12 @@ Navigate to the root of the repo <br/>
 
 #### Clone the project
 ```
-git clone git@github.com:heziofernandes/component-testing-react.git
+git clone git@github.com:heziofernandes/component-testing-react-native.git
 ```
 
 #### Navigate to the root of the repo 
 ```
-cd poc-react-test-component
+cd component-testing-react-native
 ```
 
 #### Install packages
